@@ -125,10 +125,130 @@
             "specialities": {},
             "cost": 0
           },
+          "blather": {
+            "label": "SKILL.BLATHER",
+            "characteristics": [
+              "Fel",
+              "T"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "carouse": {
+            "label": "SKILL.CAROUSE",
+            "characteristics": [
+              "T",
+              "Inf"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
           "charm": {
             "label": "SKILL.CHARM",
             "characteristics": [
               "Fel",
+              "Inf"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "chemuse": {
+            "label": "SKILL.CHEMUSE",
+            "characteristics": [
+              "Int",
+              "Inf"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "ciphers": {
+            "label": "SKILL.CIPHERS",
+            "characteristics": [
+              "Int",
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": true,
+            "specialities": {
+              "chapterRunes": {
+                "label": "Chapter Runes",
+                "advance": -20,
+                "cost": 0
+              },
+              "chaosMarks": {
+                "label": "Chaos Marks",
+                "advance": -20,
+                "cost": 0
+              },
+              "eldar": {
+                "label": "Eldar",
+                "advance": -20,
+                "cost": 0
+              },
+              "highGothic": {
+                "label": "High Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "imperialCodes": {
+                "label": "Imperial Codes",
+                "advance": -20,
+                "cost": 0
+              },
+              "lowGothic": {
+                "label": "Low Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "mercenary": {
+                "label": "Mercenary",
+                "advance": -20,
+                "cost": 0
+              },
+              "necrontyr": {
+                "label": "Necrontyr",
+                "advance": -20,
+                "cost": 0
+              },
+              "ork": {
+                "label": "Ork",
+                "advance": -20,
+                "cost": 0
+              },
+              "technaLingua": {
+                "label": "Techna-Lingua",
+                "advance": -20,
+                "cost": 0
+              },
+              "tau": {
+                "label": "Tau",
+                "advance": -20,
+                "cost": 0
+              },
+              "underworld": {
+                "label": "Underworld",
+                "advance": -20,
+                "cost": 0
+              },
+              "xenosMarkings": {
+                "label": "Xenos Markings",
+                "advance": -20,
+                "cost": 0
+              }
+            }
+          },
+          "climb": {
+            "label": "SKILL.CLIMB",
+            "characteristics": [
+              "S",
               "Inf"
             ],
             "advance": -20,
@@ -143,17 +263,6 @@
               "Int",
               "S",
               "WP"
-            ],
-            "advance": -20,
-            "isSpecialist": false,
-            "specialities": {},
-            "cost": 0
-          },
-          "commerce": {
-            "label": "SKILL.COMMERCE",
-            "characteristics": [
-              "Int",
-              "Fel"
             ],
             "advance": -20,
             "isSpecialist": false,
@@ -276,6 +385,26 @@
               }
             }
           },
+          "concealment": {
+            "label": "SKILL.CONCEALMENT",
+            "characteristics": [
+              "Ag",
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "contortionist": {
+            "label": "SKILL.CONTORTIONIST",
+            "characteristics": [
+              "Ag",
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
           "deceive": {
             "label": "SKILL.DECEIVE",
             "characteristics": [
@@ -287,8 +416,53 @@
             "specialities": {},
             "cost": 0
           },
+          "demolition": {
+            "label": "SKILL.DEMOLITION",
+            "characteristics": [
+              "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "disguise": {
+            "label": "SKILL.DISGUISE",
+            "characteristics": [
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
           "dodge": {
             "label": "SKILL.DODGE",
+            "characteristics": [
+              "Ag"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "drive": {
+            "label": "SKILL.DRIVE",
+            "characteristics": [
+              "Ag"
+            ],
+            "advance": -20,
+            "isSpecialist": true,
+            "specialities": {
+              "groundvehicles": {
+                "label": "Ground Vehicles",
+                "advance": -20,
+                "cost": 0
+              }
+            }
+          },
+          "evaluate": {
+            "label": "SKILL.EVALUATE",
             "characteristics": [
               "Ag"
             ],
@@ -373,6 +547,18 @@
               }
             }
           },
+          "gamble": {
+            "label": "SKILL.GAMBLE",
+            "characteristics": [
+              "Fel",
+              "Int",
+              "Per"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
           "inquiry": {
             "label": "SKILL.INQUIRY",
             "characteristics": [
@@ -407,81 +593,35 @@
             "specialities": {},
             "cost": 0
           },
-          "linguistics": {
-            "label": "SKILL.LINGUISTICS",
+          "invocation": {
+            "label": "SKILL.INVOCATION",
             "characteristics": [
-              "Int",
-              "Fel"
+              "WP"
             ],
             "advance": -20,
-            "isSpecialist": true,
-            "specialities": {
-              "chapterRunes": {
-                "label": "Chapter Runes",
-                "advance": -20,
-                "cost": 0
-              },
-              "chaosMarks": {
-                "label": "Chaos Marks",
-                "advance": -20,
-                "cost": 0
-              },
-              "eldar": {
-                "label": "Eldar",
-                "advance": -20,
-                "cost": 0
-              },
-              "highGothic": {
-                "label": "High Gothic",
-                "advance": -20,
-                "cost": 0
-              },
-              "imperialCodes": {
-                "label": "Imperial Codes",
-                "advance": -20,
-                "cost": 0
-              },
-              "lowGothic": {
-                "label": "Low Gothic",
-                "advance": -20,
-                "cost": 0
-              },
-              "mercenary": {
-                "label": "Mercenary",
-                "advance": -20,
-                "cost": 0
-              },
-              "necrontyr": {
-                "label": "Necrontyr",
-                "advance": -20,
-                "cost": 0
-              },
-              "ork": {
-                "label": "Ork",
-                "advance": -20,
-                "cost": 0
-              },
-              "technaLingua": {
-                "label": "Techna-Lingua",
-                "advance": -20,
-                "cost": 0
-              },
-              "tau": {
-                "label": "Tau",
-                "advance": -20,
-                "cost": 0
-              },
-              "underworld": {
-                "label": "Underworld",
-                "advance": -20,
-                "cost": 0
-              },
-              "xenosMarkings": {
-                "label": "Xenos Markings",
-                "advance": -20,
-                "cost": 0
-              }
-            }
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "lipreading": {
+            "label": "SKILL.LIPREADING",
+            "characteristics": [
+              "Per"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "literacy": {
+            "label": "SKILL.LITERACY",
+            "characteristics": [
+              "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
           },
           "logic": {
             "label": "SKILL.LOGIC",
@@ -506,8 +646,8 @@
             "specialities": {},
             "cost": 0
           },
-          "navigate": {
-            "label": "SKILL.NAVIGATE",
+          "navigation": {
+            "label": "SKILL.NAVIGATION",
             "characteristics": [
               "Int",
               "Per"
@@ -532,8 +672,18 @@
               }
             }
           },
-          "operate": {
-            "label": "SKILL.OPERATE",
+          "performer": {
+            "label": "SKILL.PERFORMER",
+            "characteristics": [
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "pilot": {
+            "label": "SKILL.PILOT",
             "characteristics": [
               "Ag",
               "Int"
@@ -557,16 +707,6 @@
                 "cost": 0
               }
             }
-          },
-          "parry": {
-            "label": "SKILL.PARRY",
-            "characteristics": [
-              "WS"
-            ],
-            "advance": -20,
-            "isSpecialist": false,
-            "specialities": {},
-            "cost": 0
           },
           "psyniscience": {
             "label": "SKILL.PSYNISCIENCE",
@@ -666,11 +806,120 @@
             "specialities": {},
             "cost": 0
           },
+          "search": {
+            "label": "SKILL.SEARCH",
+            "characteristics": [
+              "Per",
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "secrettongue": {
+            "label": "SKILL.SECRETTONGUE",
+            "characteristics": [
+              "Int",
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": true,
+            "specialities": {
+              "chapterRunes": {
+                "label": "Chapter Runes",
+                "advance": -20,
+                "cost": 0
+              },
+              "chaosMarks": {
+                "label": "Chaos Marks",
+                "advance": -20,
+                "cost": 0
+              },
+              "eldar": {
+                "label": "Eldar",
+                "advance": -20,
+                "cost": 0
+              },
+              "highGothic": {
+                "label": "High Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "imperialCodes": {
+                "label": "Imperial Codes",
+                "advance": -20,
+                "cost": 0
+              },
+              "lowGothic": {
+                "label": "Low Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "mercenary": {
+                "label": "Mercenary",
+                "advance": -20,
+                "cost": 0
+              },
+              "necrontyr": {
+                "label": "Necrontyr",
+                "advance": -20,
+                "cost": 0
+              },
+              "ork": {
+                "label": "Ork",
+                "advance": -20,
+                "cost": 0
+              },
+              "technaLingua": {
+                "label": "Techna-Lingua",
+                "advance": -20,
+                "cost": 0
+              },
+              "tau": {
+                "label": "Tau",
+                "advance": -20,
+                "cost": 0
+              },
+              "underworld": {
+                "label": "Underworld",
+                "advance": -20,
+                "cost": 0
+              },
+              "xenosMarkings": {
+                "label": "Xenos Markings",
+                "advance": -20,
+                "cost": 0
+              }
+            }
+          },
           "security": {
             "label": "SKILL.SECURITY",
             "characteristics": [
               "Int",
               "Ag"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "shadowing": {
+            "label": "SKILL.SHADOWING",
+            "characteristics": [
+              "Ag",
+              "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "silentmove": {
+            "label": "SKILL.SILENTMOVE",
+            "characteristics": [
+              "Ag",
+              "Per"
             ],
             "advance": -20,
             "isSpecialist": false,
@@ -688,22 +937,107 @@
             "specialities": {},
             "cost": 0
           },
-          "stealth": {
-            "label": "SKILL.STEALTH",
+          "speaklanguage": {
+            "label": "SKILL.SPEAKLANGUAGE",
             "characteristics": [
-              "Ag",
-              "Per"
+              "Int",
+              "Fel"
             ],
             "advance": -20,
-            "isSpecialist": false,
-            "specialities": {},
-            "cost": 0
+            "isSpecialist": true,
+            "specialities": {
+              "chapterRunes": {
+                "label": "Chapter Runes",
+                "advance": -20,
+                "cost": 0
+              },
+              "chaosMarks": {
+                "label": "Chaos Marks",
+                "advance": -20,
+                "cost": 0
+              },
+              "eldar": {
+                "label": "Eldar",
+                "advance": -20,
+                "cost": 0
+              },
+              "highGothic": {
+                "label": "High Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "imperialCodes": {
+                "label": "Imperial Codes",
+                "advance": -20,
+                "cost": 0
+              },
+              "lowGothic": {
+                "label": "Low Gothic",
+                "advance": -20,
+                "cost": 0
+              },
+              "mercenary": {
+                "label": "Mercenary",
+                "advance": -20,
+                "cost": 0
+              },
+              "necrontyr": {
+                "label": "Necrontyr",
+                "advance": -20,
+                "cost": 0
+              },
+              "ork": {
+                "label": "Ork",
+                "advance": -20,
+                "cost": 0
+              },
+              "technaLingua": {
+                "label": "Techna-Lingua",
+                "advance": -20,
+                "cost": 0
+              },
+              "tau": {
+                "label": "Tau",
+                "advance": -20,
+                "cost": 0
+              },
+              "underworld": {
+                "label": "Underworld",
+                "advance": -20,
+                "cost": 0
+              },
+              "xenosMarkings": {
+                "label": "Xenos Markings",
+                "advance": -20,
+                "cost": 0
+              }
+            }
           },
           "survival": {
             "label": "SKILL.SURVIVAL",
             "characteristics": [
               "Per",
               "Ag",
+              "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "swim": {
+            "label": "SKILL.SWIM",
+            "characteristics": [
+              "S"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "tactics": {
+            "label": "SKILL.TACTICS",
+            "characteristics": [
               "Int"
             ],
             "advance": -20,
@@ -828,6 +1162,16 @@
                 "cost": 0
               }
             }
+          },
+          "wrangling": {
+            "label": "SKILL.WRANGLING",
+            "characteristics": [
+              "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
           }
         }
       },
