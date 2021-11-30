@@ -2,7 +2,7 @@
   "name": "nos-deathwatch",
   "title": "Nos Deathwatch 2E",
   "description": "Innocence proves nothing",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.8.4",
   "compatibleCoreVersion": "0.8.9",
   "templateVersion": 2,
