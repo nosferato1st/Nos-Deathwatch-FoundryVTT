@@ -388,7 +388,7 @@
           "concealment": {
             "label": "SKILL.CONCEALMENT",
             "characteristics": [
-              "Ag",
+              "Ag"
             ],
             "advance": -20,
             "isSpecialist": false,
