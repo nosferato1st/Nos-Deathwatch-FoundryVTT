@@ -102,23 +102,23 @@
             "specialities": {},
             "cost": 0
           },
-          "athletics": {
-            "label": "SKILL.ATHLETICS",
-            "characteristics": [
-              "S",
-              "T"
-            ],
-            "advance": -20,
-            "isSpecialist": false,
-            "specialities": {},
-            "cost": 0
-          },
           "awareness": {
             "label": "SKILL.AWARENESS",
             "characteristics": [
               "Per",
               "Fel",
               "Int"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "barter": {
+            "label": "SKILL.BARTER",
+            "characteristics": [
+              "Fel",
+              "T"
             ],
             "advance": -20,
             "isSpecialist": false,
