@@ -301,7 +301,7 @@ async function _sendToChat(rollData) {
         rollData.damages.forEach(async d => d.damageRoll = await d.damageRoll)
     }
 
-    const html = await renderTemplate("systems/dark-heresy/template/chat/roll.html", rollData);
+    const html = await renderTemplate("systems/nos-deathwatch/template/chat/roll.html", rollData);
     let chatData = {
         user: game.user.id,
         rollMode: game.settings.get("core", "rollMode"),

@@ -4,7 +4,7 @@ export class WeaponModificationSheet extends DarkHeresyItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "weapon-modification"],
-            template: "systems/dark-heresy/template/sheet/weapon-modification.html",
+            template: "systems/nos-deathwatch/template/sheet/weapon-modification.html",
             width: 500,
             height: 369,
             resizable: false,
