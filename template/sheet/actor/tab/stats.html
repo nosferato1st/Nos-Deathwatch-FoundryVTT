@@ -39,14 +39,14 @@
         <div class="left">
             {{#each data.characteristics as |characteristic key|}}
                 {{#if characteristic.isLeft}}
-                    {{> systems/dark-heresy/template/sheet/characteristics/left.html characteristic=characteristic key=key}}
+                    {{> systems/nos-deathwatch/template/sheet/characteristics/left.html characteristic=characteristic key=key}}
                 {{/if}}
             {{/each}}
         </div>
         <div class="right">
             {{#each data.characteristics as |characteristic key|}}
                 {{#if characteristic.isRight}}
-                    {{> systems/dark-heresy/template/sheet/characteristics/right.html characteristic=characteristic key=key}}
+                    {{> systems/nos-deathwatch/template/sheet/characteristics/right.html characteristic=characteristic key=key}}
                 {{/if}}
             {{/each}}
         </div>
@@ -112,6 +112,7 @@
     <div class="skills border" scroll="true">
         <h1>{{localize "TITLE.SKILLS"}}</h1>
         <div class="flex row" style="flex-basis: 60%">
+            <div class="flex column" style="flex-basis: 100%;overflow-y: scroll">
             <!-- <div class="flex column wrap" style="max-height: 330px;flex-basis: 50%"> -->
                 {{#each data.skills as |skill key|}}
                     {{#unless skill.isSpecialist}}
@@ -128,8 +129,9 @@
                 {{/each}}
             </div>
         </div>
-        <div class="flex row" style="flex-basis: 40%">
-            <!-- <div class="flex column" style="max-height: 330px;flex-basis: 100%;overflow-y: scroll"> -->
+         <div class="flex row" style="flex-basis: 40%">
+            <div class="flex column" style="flex-basis: 100%;overflow-y: scroll">
+            <!--<div class="flex column" style="max-height: 330px;flex-basis: 100%;overflow-y: scroll">--> 
                 {{#each data.skills as |skill key|}}
                     {{#if skill.isSpecialist}}
                         <div class="item-list">
@@ -155,6 +157,6 @@
                     {{/if}}
                 {{/each}}
             </div>
-        </div>
+        </div> 
     </div>
 </div>
